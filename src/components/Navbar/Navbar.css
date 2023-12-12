@@ -1,0 +1,58 @@
+.Navbar{
+    height: 90px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 30px;
+}
+h1{
+    gap: 30px;
+}
+.navmenu ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.navcart{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.btn{
+    height: 35px;
+    width: 90px;
+    border-radius: 60px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.btn:active{
+    color: antiquewhite;
+}
+.counter{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -85px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+.kh hr{
+    border-radius: 10px;
+    cursor: pointer;
+    background: red;
+}

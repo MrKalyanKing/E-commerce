@@ -1,0 +1,17 @@
+.Popular{
+    display: flex;
+    align-items: center;
+
+}
+.popular h1{
+    margin-left:490px ;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+.popular hr{
+    margin-bottom: 40px;
+}
+.popular-items{
+    display:flex;
+    
+}
