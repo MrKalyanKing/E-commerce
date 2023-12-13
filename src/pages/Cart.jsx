@@ -4,7 +4,7 @@ import Cartitem from '../components/Cartitem/Cartitem'
 const Cart = () => {
   return (
     <div>
-      <Cartitem />
+      <Cartitem/>
     </div>
   )
 }
