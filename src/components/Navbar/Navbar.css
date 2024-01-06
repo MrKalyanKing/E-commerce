@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 .nav-logo{
     display: flex;
@@ -55,4 +56,107 @@ ul{
     border-radius: 10px;
     cursor: pointer;
     background: red;
+}
+.nav_dropdown{
+    width: 40px;
+   display: none;
+}
+/*rresponsive code*/
+@media(max-width:1280px){
+    .Navbar{
+        padding: 12px 50px;
+    }
+    .nav-logo h1{
+       font-size: 20px;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .nav-logo p{
+        font-size: 16px;
+
+    }
+    .navmenu{
+         gap: 30px;
+         font-size: 16px;
+    }
+    .navcart{
+        gap: 30px;
+    }
+    .navcart btn{
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+
+    }
+     counter {
+          margin-left: -60px;
+          font-size: 42px;
+    }
+    
+}
+@media(max-width:1024px){
+    .Navbar{
+        padding: 12px 30px;
+    }
+    .navmenu{
+        gap: 35px;
+        font-size: 14px;
+    }
+    .navcart btn{
+        width: 80px;
+        height: 35px;
+        font: 14px;
+    }
+    .navcart img{
+        width: 30px;
+
+    }
+    .navcart counter{
+        height: 18px;
+    }
+}
+@media(max-width:800px){
+    .Navbar{
+        padding: 10px 0px;
+    }
+    .nav_dropdown{
+         display: block;
+         width: 40px;
+         
+         transition:0.5s ;
+    }
+    .navmenu{
+        display: none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background:linear-gradient(180deg pink,white 60%);
+        justify-content: center;
+        top: 80px;
+    }
+    .navmenu-visible{
+        display: flex;
+    }
+    .nav_dropdown.open{
+        transform: rotate(-90deg);
+    }
+
+}
+@media(max-width:500px){
+    .Navbar{
+        padding:8px 0px;
+        gap:0;
+    }
+    .nav-logo{
+        transform: scale(0.8);
+    }
+    .navmenu{
+        height: 70px;
+        top: 50px;
+    }
+    .navcart {
+        transform: scale(0.8);
+    }
+    
 }

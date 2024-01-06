@@ -1,5 +1,5 @@
 .new-collection h2{
-margin-left: 590px;
+margin-left: 50%;
 
 }
 .collecctions{
@@ -7,4 +7,63 @@ margin-left: 590px;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
     margin-top: 50px;
     
+}
+@media(max-width:1280px){
+   
+    .new-collection h1{
+        font-size:40px;
+    }
+    .new-collection hr{
+        width: 100%;
+        height: 4px;
+    }
+    .collections{
+        gap: 30px;
+        margin-top: 20px;
+    }
+}
+@media(max-width:1024px){
+   
+    .new-collection h1{
+        font-size:30px;
+    }
+    .new-collection hr{
+        width: 100%;
+        height: 3px;
+    }
+    .collecctions{
+        gap: 15px;
+        margin-top: 20px;
+
+    }
+}
+@media(max-width:800px){
+  
+    .new-collection h1{
+        font-size:20px;
+
+    }
+    .new-collection hr{
+        width: 100%;
+        height: 3px;
+    }
+    .collecctions{
+        gap: 5px;
+        
+    }
+}
+@media(max-width:500px){
+  
+    .new-collection h1{
+        font-size:30px;
+    }
+    .new-collection hr{
+        width: 100%;
+        height: 5px;
+    }
+    .collecctions{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
