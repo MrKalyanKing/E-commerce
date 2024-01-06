@@ -128,9 +128,9 @@
 @media(max-width:500px){
     .Newsletter{
         width: 100%;
-        height: 25vh;
-        padding: 0px;
-        gap: 15px;
+       
+        margin-bottom: 10px;
+        gap: 10px;
     }
     .Newsletter h1{
         font-size: 16px;
@@ -142,14 +142,14 @@
     }
     .Newsletter div{
         width: 290px ;
+       
         
     }
     .Newsletter div input{
-        width: 130px;
+        
         font-size: 13px;
     }
     .Newsletter div button{
-        width: 130px;
-        margin-top: 50px;
+    
     }
 }

@@ -1,7 +1,7 @@
 .Offer{
     
     display:flex;
-    background: linear-gradient(180deg,#df9de4,#e1ffea22 60%);
+    background: linear-gradient(180deg,#df9de4,#e1ffeae1 60%);
     margin: auto;
     padding: 0px 180px;
     
@@ -9,7 +9,7 @@
     
 
 }
-.Ex-offer-left{
+.Offer.Ex-offer-left{
    flex:1;
    display: flex;
    flex-direction: column;
@@ -17,19 +17,19 @@
    margin-right: -30;
 
 }
-.Ex-offer-left h1{
+.Offer.Ex-offer-left h1{
  font-weight: 700px;
  color: #171717;   
  font-size: 60px;
  margin-right: 0px;
 }
-.Ex-offer-left p{
+.Offer.Ex-offer-left p{
     font-weight: 800px;
     color:#171717;
     font-size:22px;
     margin-right: 0px;
 }
-.Ex-offer-left Button{
+.Offer.Ex-offer-left Button{
     width: 50%;
      margin:30px;
      padding:20px;
@@ -39,16 +39,16 @@
      
 }
 
-.Ex-offer-left p{
+.Offer.Ex-offer-left p{
    margin-bottom: 8px;
 }
-.offer-right{
+.Offer.offer-right{
     display:flex;
     flex-direction: column;
 
 }
 @media(max-width:1280px){
-    .offer{
+    .Offer{
         padding: 0px 80px;
         margin-bottom: 120px;
     }
@@ -73,7 +73,7 @@
 
 }
 @media(max-width:1024px){
-    .offer{
+    .Offer{
         padding: 0px 60px;  
         margin-bottom: 80px;
         height: 40vh;   
@@ -100,7 +100,7 @@
 
 }
 @media(max-width:800px){
-    .offer{
+    .Offer{
         padding: 0px 50px;
         margin-bottom: 10px;
         
@@ -127,8 +127,9 @@
 
 }
 @media(max-width:500px){
-    .offer{
-        width: 50px;
+    .Offer{
+        padding: 0px 50px;
+        margin-bottom: 10px;
         
         
     }
