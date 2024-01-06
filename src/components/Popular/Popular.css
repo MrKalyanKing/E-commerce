@@ -77,7 +77,8 @@
 }
 @media(max-width:500px){
     .popular{
-        height: 130vh;
+        height: 110vh;
+        
 
     }
     .popular h1{

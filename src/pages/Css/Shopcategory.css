@@ -81,4 +81,20 @@
     .shopcategorybanner{
         width:95%;
     }
+    
+    .Shopcategory-products{
+        width: 95%;
+    }
+    .Shopcategory-loadmore{
+        margin: 60px auto;
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width:500px){
+   .shopcategory-products{
+   
+    grid-template-columns: 1fr 1fr;
+   }
 }

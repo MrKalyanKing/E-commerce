@@ -135,13 +135,16 @@
     }
     .Ex-offer-left p{
         font-size:10px;
+        
 
     }
     .Ex-offer-left h1{
         font-size: 16px;
+        margin-top:40px ;
     }
     .offer-right img{
         width: 80px;
+        margin-top: 60px;
         
     }
     .Ex-offer-left button{

@@ -146,7 +146,7 @@ ul{
 @media(max-width:500px){
     .Navbar{
         padding:8px 0px;
-        gap:0;
+        
     }
     .nav-logo{
         transform: scale(0.8);
@@ -156,7 +156,7 @@ ul{
         top: 50px;
     }
     .navcart {
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
     
 }

@@ -54,3 +54,53 @@
     height: 3px;
     background: #c7c7c7;
 }
+@media(max-width:800px){
+    .Footer{
+       gap: 20px;
+    }
+    .Footer-logo{
+        gap: 10px;
+        align-items: end;
+    }
+    .Footer-logo img{
+        width: 40px;
+    }
+    .Footer-logo p{
+        font-size: 20px;
+    }
+    .Footer-links{
+         font-size: 20px;
+         gap: 20px;
+    }
+    .Footer-social-icon img{
+        width: 22px;
+    }
+    .Footer-copyright{
+        font-size: 17px;
+    }
+}
+@media(max-width:500px){
+    .Footer{
+       gap: 10px;
+    }
+    .Footer-logo{
+        gap: 5px;
+        align-items: end;
+    }
+    .Footer-logo img{
+        width: 20px;
+    }
+    .Footer-logo p{
+        font-size: 10px;
+    }
+    .Footer-links{
+         font-size: 10px;
+         gap: 10px;
+    }
+    .Footer-social-icon img{
+        width: 15px;
+    }
+    .Footer-copyright{
+        font-size: 14px;
+    }
+}
